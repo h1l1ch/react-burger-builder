@@ -2,8 +2,19 @@
 
 Project built using **React** library. All basic and advanced features of React were used here: **Hooks**, **Redux**, **Authentication**, **Testing**, **Routing** etc.
 
+# How to use
 
-## Start
+* Using **burger builder's** **"less"** and **"more"** buttons you can construct your *individual burger*. 
+
+* To proceed "buying" burger you need to **authenticate** by clicking the button with identical name. There you should put *e-mail* and *password* (no need to write down real) then *login* / *logout*. 
+
+* Press *continue* to proceed tp the **checkout**. There you need to **fill** *submission form*. Press *submit*.
+
+* Now you can check your *submitted order* by clicking **Orders** button. **All orders** made on the **current account** will be *displayed* there.
+
+* This website has a **responsive web-design**. Feel free to check out its *mobile* and *tablet versions*.
+
+## How to launch 
 
 * Need **final version**? Simply check link of the app. It is *in the header* next to the *description*. 
 
