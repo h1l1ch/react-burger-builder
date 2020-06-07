@@ -99,14 +99,6 @@ Project built using **React** library. All basic and advanced features of React 
 
 * [Redux](https://redux.js.org/) - predictable state container for JS apps.
 
-* [PostCSS HexRGBA](https://www.npmjs.com/package/postcss-hexrgba) - plugin that adds shorthand hex methods to rgba() values. 
-
-* [Autoprefixer](https://autoprefixer.github.io/) - plugin smartly adds all necessary prefixes before deployment.
-
-* [LazySizes](https://afarkas.github.io/lazysizes/index.html) - plugin, which lazy-loads images thus optimizes the perfomance.
-
-* [Netlify](https://www.netlify.com/) - allows to build fast websites. Also has its own cloud functions. 
-
 
 ## Authors
 
