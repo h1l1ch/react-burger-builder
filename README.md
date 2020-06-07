@@ -9,7 +9,7 @@ Project built using **React** library. All basic and advanced features of React 
 
 * **Deployment code** is located in "*public*" folder. 
 
-* To launch the **development code** on your computer download *zip file*. Extract in project empty folder. To install all dependencies open npm and type:
+* To launch **development code** download *zip file* on your computer. Extract it into the empty folder. Then open npm to install all dependencies. Inside project's directory type:
 
   ```
   npm init
