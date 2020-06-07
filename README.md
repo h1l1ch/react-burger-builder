@@ -23,35 +23,35 @@ Project built using **React** library. All basic and advanced features of React 
 
 ## Project structure
 
-* **build/** folder includes the *deployment version* of the project. 
+* **/build/** depository includes *deployment version* of the project. 
 
-* **config/** depository includes *webpack* and other *project building configurations*.
+* **/config/** depository includes *webpack's* and other *projects' building configurations*.
 
-* **node-modules/** depository includes all *npm dependencies* and *sub-dependencies* required for successful launch of the app.
+* **/node-modules/** depository includes all *npm dependencies* and *sub-dependencies* required for successful launch of the app.
 
-* **public/** includes *index.html* inside of which final DOM will be rendered.
+* **/public/** includes *index.html* inside of which final DOM will be rendered.
 
-* **scripts/** depository includes the ruleset, which determines how npm and its dependencies should conduct upon each fundamental call (*npm start*, *npm build* and *npm test*).
+* **/scripts/** depository includes the ruleset, which determines how npm and its dependencies should conduct upon each fundamental call (*npm start*, *npm build* and *npm test*).
 
-* **src/** depository includes all development code: *React components*, *assets*, *HOC*, *redux*. Full list: 
+* **/src/** depository includes all development code: *React components*, *assets*, *HOC*, *redux*. Full list: 
 
-  * **assets/** includes *burger logo image*.
+  * **/assets/** includes *burger logo image*.
   
-  * **components/** includes all *functional* (stateless) *components*. Their *.js* and *.css* files.
+  * **/components/** includes all *functional* (stateless) *components*. Their *.js* and *.css* files.
   
-  * **containers/** includes all *class-based* (statefull) *components*. Their *.js*, *.test.js* and *.css* files.
+  * **/containers/** includes all *class-based* (statefull) *components*. Their *.js*, *.test.js* and *.css* files.
   
-  * **hoc/** includes all *High-Order-Components* (wrapping). *withErrorHandler()* wraps other components to handler errors for them.
+  * **/hoc/** includes all *High-Order-Components* (wrapping). *withErrorHandler()* wraps other components to handler errors for them.
   
-  * **store/** includes *Redux* related code.
+  * **/store/** includes *Redux* related code.
    
-  * **App.js** is a head class-based component. 
+  * **/App.js** is a head class-based component. 
      
-  * **index.js** inserts *App.js* into the *root* div element of *index.html* file. 
+  * **/index.js** inserts *App.js* into the *root* div element of *index.html* file. 
        
-  * **.gitignore** keeps list of exceptions for Git to ignore. 
+  * **/.gitignore** keeps list of exceptions for Git to ignore. 
          
-  * **.package.json** and **.package-lock.json** keeps the list of requirements, which allow npm to download all necessary dependencies for successful project loading. 
+  * **/.package.json** and **/.package-lock.json** keeps the list of requirements, which allow npm to download all necessary dependencies for successful project loading. 
   
 
 ## Things I've learned 
