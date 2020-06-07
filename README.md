@@ -4,7 +4,7 @@ Project built using **React** library. All basic and advanced features of React 
 
 # How to use
 
-* Using **burger builder's** **"less"** and **"more"** buttons you can construct your *individual burger*. 
+* Using burger builder's **"less"** and **"more"** buttons you can construct your *individual burger*. 
 
 * To proceed "buying" burger you need to **authenticate** by clicking the button with identical name. There you should put *e-mail* and *password* (no need to write down real) then *login* / *logout*. 
 
@@ -37,8 +37,6 @@ Project built using **React** library. All basic and advanced features of React 
 * **/build/** depository includes *deployment version* of the project. 
 
 * **/config/** depository includes *webpack's* and other *projects' building configurations*.
-
-* **/node-modules/** depository includes all *npm dependencies* and *sub-dependencies* required for successful launch of the project.
 
 * **/public/** depository includes *index.html* file. Into this file final DOM will be rendered.
 
