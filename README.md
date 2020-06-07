@@ -19,7 +19,7 @@ Project built using **React** library. All basic and advanced features of React 
   ```
   npm start
   ```
-  You are ready to go and check travel site. ;)
+  You are ready to go and to make your burger. ;)
 
 ## Project structure
 
