@@ -27,7 +27,7 @@ Project built using **React** library. All basic and advanced features of React 
 
 * **/config/** depository includes *webpack's* and other *projects' building configurations*.
 
-* **/node-modules/** depository includes all *npm dependencies* and *sub-dependencies* required for successful launch of the app.
+* **/node-modules/** depository includes all *npm dependencies* and *sub-dependencies* required for successful launch of the project.
 
 * **/public/** includes *index.html* inside of which final DOM will be rendered.
 
