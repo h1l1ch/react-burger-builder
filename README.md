@@ -7,7 +7,7 @@ Project built using **React** library. All basic and advanced features of React 
 
 * Need **final version**? Simply check link of the app. It is *in the header* next to the *description*. 
 
-* **Deployment code** is located in "*public* folder. 
+* **Deployment code** is located in "*public*" folder. 
 
 * To launch the **development code** on your computer download *zip file*. Extract in project empty folder. To install all dependencies open npm and type:
 
