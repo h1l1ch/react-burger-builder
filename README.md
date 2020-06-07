@@ -1,6 +1,6 @@
 # Burger Builder with React!
 
-Project built using **React** library. All basic and advanced features of React were used here: **Hooks**, **Redux**, **authentication**, **testing**, **Routing** etc.
+Project built using **React** library. All basic and advanced features of React were used here: **Hooks**, **Redux**, **Authentication**, **Testing**, **Routing** etc.
 
 
 ## Start
