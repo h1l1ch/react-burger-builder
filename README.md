@@ -1,16 +1,16 @@
 # Burger Builder with React!
 
-Project built using **React** library. All basic and advanced features of React were used here: **Hooks**, **Redux**, **Authentication**, **Testing**, **Routing** etc.
+Project built using **React** library. Multiple React features were used here: **Hooks**, **Redux**, **Authentication**, **Testing**, **Routing** etc.
 
-# How to use
+## How to use
 
-* Using burger builder's **"less"** and **"more"** buttons you can construct your *individual burger*. 
+* Use **"less"** and **"more"** buttons and construct *your own burger*. 
 
-* To proceed "buying" burger you need to **authenticate** by clicking the button with identical name. There you should put *e-mail* and *password* (no need to write down real) then *login* / *logout*. 
+* To proceed buying burger you need to **signin** or **signup** by clicking "authenticate" navigation link. Put your *e-mail* and *password* (don't write your real ones) then press *signin* (if accounts exists)  / *signup* (if account is new). 
 
-* Press *continue* to proceed tp the **checkout**. There you need to **fill** *submission form*. Press *submit*.
+* Press *continue* to proceed to the **checkout**. There you need to **fill** all the fields of *submission form*.  After you finished press "submit".
 
-* Now you can check your *submitted order* by clicking **Orders** button. **All orders** made on the **current account** will be *displayed* there.
+* Now you **can check** your *submitted order* by clicking **"Orders"** navigation link. **All orders** made from the **current account** will be *displayed* there.
 
 * This website has a **responsive web-design**. Feel free to check out its *mobile* and *tablet versions*.
 
@@ -36,11 +36,11 @@ Project built using **React** library. All basic and advanced features of React 
 
 * **/build/** depository includes *deployment version* of the project. 
 
-* **/config/** depository includes *webpack's* and other *projects' building configurations*.
+* **/config/** depository includes *webpack's* and other *dependencies's building configurations*.
 
-* **/public/** depository includes *index.html* file. Into this file final DOM will be rendered.
+* **/public/** depository includes *index.html* file. React will render its DOM there.
 
-* **/scripts/** depository includes the ruleset, which determines how npm and its dependencies should conduct upon each of fundamental calls (*npm start*, *npm build* and *npm test*).
+* **/scripts/** depository includes the ruleset, which determines how npm and its dependencies should conduct upon each of the fundamental calls (*npm start*, *npm build* and *npm test*).
 
 * **/src/** depository includes *development code*:
 
@@ -50,7 +50,7 @@ Project built using **React** library. All basic and advanced features of React 
   
   * **/containers/** includes all *class-based* (statefull) *components*. Their *".js"*, *".test.js"* and *".css"* files.
   
-  * **/hoc/** includes all *High-Order-Components* (wrapping). For instance, *withErrorHandler()* wraps other components to handler errors for them.
+  * **/hoc/** includes all *High-Order-Components* (wrapping). For instance, *withErrorHandler()* wraps other components to handle errors for them.
   
   * **/store/** includes *"Redux"* related code.
    
@@ -73,17 +73,17 @@ Project built using **React** library. All basic and advanced features of React 
   
   * **Lifecycle Hooks** such as *componentDidMount()*, *componentDidUpdate()* etc.
 
-* How to **efficiently work with CSS** code in React using *npm eject* command.
+* How to **efficiently work** with **CSS** in React using *npm eject* command.
 
-* How to make **one-page** website functioning like **multi-page** website using *re-rendering* and *routing* tools.
+* How to make **one-page** website functioning like **multi-page** website using various *re-rendering* and *routing* tools.
 
-* How to **retrieve** and **post data** to the **backend** with *Firebase Database* storage.
+* How to **retrieve** and **post data** to the **backend** of *Firebase Database* storage.
 
 * How to effeciently **debug big applications** using browser *default tools* ("sources" tab) and *extensions* ("Redux" and "React" ext.).
 
 * How to **handle errors**: *fetch*, *catch* them and *return sufficient feedback*.
 
-* How to work with **forms**. How to handle **forms validation** by *handling submission* and adding *validation feedback*.
+* How to work with **forms**. How to handle **forms validation** by *handling submission* and *adding validation feedback*.
 
 * How to implement **routing & routes**, **passing data between multiple pages** via *query params* and implementing *navigation links*.
 
