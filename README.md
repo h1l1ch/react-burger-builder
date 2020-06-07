@@ -56,13 +56,13 @@ Project built using **React** library. All basic and advanced features of React 
   
   * **/store/** includes *"Redux"* related code.
    
-  * **/App.js** is a *head* (main) class-based component. It is wrapper of all React components.
+* **/App.js** is a *head* (main) class-based component. It is wrapper of all React components.
      
-  * **/index.js** inserts *App.js* into the *root* div element of *index.html* file. 
+* **/index.js** inserts *App.js* into the *root* div element of *index.html* file. 
        
-  * **/.gitignore** is a list filled with exceptions for Git. Once the whole project is commited exceptions will be ignored. 
+* **/.gitignore** is a list filled with exceptions for Git. Once the whole project is commited exceptions will be ignored. 
          
-  * **/.package.json** and **/.package-lock.json** both keep the list of requirements, which allow npm to download all necessary dependencies for further successful project loading. 
+* **/.package.json** and **/.package-lock.json** both keep the list of requirements, which allow npm to download all necessary dependencies for further successful project loading. 
   
 
 ## Things I've learned 
