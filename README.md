@@ -29,68 +29,66 @@ Project built using **React** library. All basic and advanced features of React 
 
 * **/node-modules/** depository includes all *npm dependencies* and *sub-dependencies* required for successful launch of the project.
 
-* **/public/** includes *index.html* inside of which final DOM will be rendered.
+* **/public/** depository includes *index.html* file. Into this file final DOM will be rendered.
 
-* **/scripts/** depository includes the ruleset, which determines how npm and its dependencies should conduct upon each fundamental call (*npm start*, *npm build* and *npm test*).
+* **/scripts/** depository includes the ruleset, which determines how npm and its dependencies should conduct upon each of fundamental calls (*npm start*, *npm build* and *npm test*).
 
-* **/src/** depository includes all development code: *React components*, *assets*, *HOC*, *redux*. Full list: 
+* **/src/** depository includes *development code*:
 
   * **/assets/** includes *burger logo image*.
   
-  * **/components/** includes all *functional* (stateless) *components*. Their *.js* and *.css* files.
+  * **/components/** includes all *functional* (stateless) *components*. Their *".js"* and *".css"* files.
   
-  * **/containers/** includes all *class-based* (statefull) *components*. Their *.js*, *.test.js* and *.css* files.
+  * **/containers/** includes all *class-based* (statefull) *components*. Their *".js"*, *".test.js"* and *".css"* files.
   
-  * **/hoc/** includes all *High-Order-Components* (wrapping). *withErrorHandler()* wraps other components to handler errors for them.
+  * **/hoc/** includes all *High-Order-Components* (wrapping). For instance, *withErrorHandler()* wraps other components to handler errors for them.
   
-  * **/store/** includes *Redux* related code.
+  * **/store/** includes *"Redux"* related code.
    
-  * **/App.js** is a head class-based component. 
+  * **/App.js** is a *head* (main) class-based component. It is wrapper of all React components.
      
   * **/index.js** inserts *App.js* into the *root* div element of *index.html* file. 
        
-  * **/.gitignore** keeps list of exceptions for Git to ignore. 
+  * **/.gitignore** is a list filled with exceptions for Git. Once the whole project is commited exceptions will be ignored. 
          
-  * **/.package.json** and **/.package-lock.json** keeps the list of requirements, which allow npm to download all necessary dependencies for successful project loading. 
+  * **/.package.json** and **/.package-lock.json** both keep the list of requirements, which allow npm to download all necessary dependencies for further successful project loading. 
   
 
 ## Things I've learned 
 
 * **React fundamentals**:
 
-  * What are **components** and their types: *functional(stateless)* and *class-based(statefull)*.
+  * What are **components** and their two types: *functional(stateless)* and *class-based(statefull)*.
   
   * What are **state** and **props**. How and where to use each of them. 
-
-  * How to build **markup elements** such as *div*, *row* etc. 
   
   * **Lifecycle Hooks** such as *componentDidMount()*, *componentDidUpdate()* etc.
 
 * How to **efficiently work with CSS** code in React using *npm eject* command.
 
-* How to make **one-page website** function like **multi-page** using *re-rendering* and *routing*.
+* How to make **one-page** website functioning like **multi-page** website using *re-rendering* and *routing* tools.
 
-* How to **retrieve** and **post data** to the **backend**. Used *Firebase* storage.
+* How to **retrieve** and **post data** to the **backend** with *Firebase Database* storage.
 
-* How to effeciently **debug big applications** using browser *default tools* and *extensions*.
+* How to effeciently **debug big applications** using browser *default tools* ("sources" tab) and *extensions* ("Redux" and "React" ext.).
 
-* How to **handle errors**: *fetch*, *catch* them and return detailed feedback.
+* How to **handle errors**: *fetch*, *catch* them and *return sufficient feedback*.
 
-* How to work with **forms** and **forms validation**. *Handling submission* and adding *validation feedback*.
+* How to work with **forms**. How to handle **forms validation** by *handling submission* and adding *validation feedback*.
 
 * How to implement **routing & routes**, **passing data between multiple pages** via *query params* and implementing *navigation links*.
 
-* What is **Redux**. Its **basics** (*reducers*, *store*, *actions* etc.) and **advanced features**(*middleware*, *devtools*, *action creators*, *handling async code* etc.).
+* What is **Redux**: its **basics** (*reducers*, *store*, *actions* etc.) and **advanced features**(*middleware*, *devtools*, *action creators*, *handling async code* etc.).
 
-* How to insert **authentication** features to the project. Using *tokens*, *persistent authentication with local storage* and *guarding routes*.
+* How to implement **authentication** feature using *tokens*, *persistent authentication with local storage* and *guarding routes*.
 
-* How to **test** project using *npm test* command and creating *.test.js* files and also *testing Redux*.
+* How to **test** project's individual files using *npm test* command and creating *".test.js"* files. Also learned how to *test Redux*.
 
-* **React Hooks** such as *useState()* and *useEffect()* and why class-based components are not needed anymore.
+* **React Hooks** such as *useState()* and *useEffect()*. Also, why *class-based components* are **not required anymore**.
 
-* Also learned about **Preact**, **Gatsby.js** **React native** and many other tools to boost my competence and optimize my developing abilities.
+* Also learned about **Preact**, **Gatsby.js**, **React native** and many **other tools** *to boost* my *competence* and *optimize* my *developing abilities*.
 
-* Names of **multiple sites**, which give me an opportunity to **boost React knowledge by practising** and **gain inspiration**. Here are the names of few: *builtwithreact* and *react.rocks*.
+* Names of **multiple sites**, which provide an **unbelievable opportunity** to **boost React knowledge** by **practising** and **gain inspiration**. Here are the names of few: *builtwithreact* and *react.rocks*.
 
  
  ## Built With
