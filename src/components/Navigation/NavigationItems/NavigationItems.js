@@ -12,6 +12,6 @@ const navigationItems = (props) => (
             : <NavigationItem link="/logout">Logout</NavigationItem>
         }
     </ul>
-);
+); 
 
 export default navigationItems;
